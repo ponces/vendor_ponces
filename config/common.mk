@@ -30,9 +30,13 @@ endif
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.control_privapp_permissions=enforce
 
+# World APN list
+PRODUCT_COPY_FILES += \
+    vendor/ponces/prebuilt/common/etc/apns-conf.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/apns-conf.xml
+
 # Power whitelist
 PRODUCT_COPY_FILES += \
-    vendor/ponces/config/permissions/custom-power-whitelist.xml:system/etc/sysconfig/custom-power-whitelist.xml
+    vendor/ponces/config/permissions/custom-power-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/custom-power-whitelist.xml
 
 # Do not include art debug targets
 PRODUCT_ART_TARGET_INCLUDE_DEBUG_BUILD := false
