@@ -4,5 +4,6 @@ PRODUCT_PACKAGES += \
     AOSPFrameworksOverlay \
     AOSPSystemUIOverlay \
     DocumentsUIOverlay \
+    Launcher3Overlay \
     SettingsProviderOverlay \
     WifiOverlay
