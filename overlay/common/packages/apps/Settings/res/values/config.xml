@@ -16,4 +16,13 @@
 <resources>
     <!-- When true enable gesture setting. -->
     <bool name="config_gesture_settings_enabled">true</bool>
+
+    <!-- Package name for the wallpaper picker activity. -->
+    <string name="config_wallpaper_picker_package" translatable="false">com.android.wallpaper</string>
+
+    <!-- Fully-qualified class name for the wallpaper picker activity. -->
+    <string name="config_wallpaper_picker_class" translatable="false">com.android.customization.picker.CustomizationPickerActivity</string>
+
+    <!-- Fully-qualified class name for the styles & wallpaper picker activity. -->
+    <string name="config_styles_and_wallpaper_picker_class" translatable="false">com.android.customization.picker.CustomizationPickerActivity</string>
 </resources>
