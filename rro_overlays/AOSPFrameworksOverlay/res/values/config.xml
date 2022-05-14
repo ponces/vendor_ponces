@@ -14,6 +14,12 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string-array name="config_locationExtraPackageNames" translatable="false">
+        <!-- TeleService -->
+        <item>com.android.phone</item>
+    </string-array>
+
     <!-- Set this to true to enable the platform's auto-power-save modes like doze and
          app standby.  These are not enabled by default because they require a standard
          cloud-to-device messaging service for apps to interact correctly with the modes
