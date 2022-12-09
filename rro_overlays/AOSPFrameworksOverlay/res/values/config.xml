@@ -108,6 +108,9 @@
          auto-brightness. If unset, then it just gets the default sensor of type TYPE_LIGHT. -->
     <string name="config_displayLightSensorType" translatable="false">android.sensor.light</string>
 
+    <!-- Name of the font family to use in the default lockscreen clock -->
+    <string name="config_clockFontFamily" translatable="false" />
+
     <!-- Define device configs on boot -->
     <string-array name="global_device_configs_override">
        <!-- Enable app cloning  -->
