@@ -30,4 +30,7 @@
         <item>com.android.systemui.falcon.nine</item>
         <item>com.android.systemui.plugin.globalactions.wallet</item>
     </string-array>
+
+    <!-- Whether or not lockscreen shortcuts can be customized -->
+    <bool name="custom_lockscreen_shortcuts_enabled" translatable="false">true</bool>
 </resources>
