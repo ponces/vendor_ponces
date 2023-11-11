@@ -11,3 +11,7 @@ PRODUCT_PACKAGES += \
 # Camera
 PRODUCT_PACKAGES += \
     Aperture
+
+# Trebuchet
+PRODUCT_PACKAGES += \
+    TrebuchetQuickStep
