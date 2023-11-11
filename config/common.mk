@@ -55,6 +55,9 @@ $(call inherit-product, vendor/ponces/config/clocks.mk)
 # Fonts
 $(call inherit-product, vendor/ponces/config/fonts.mk)
 
+# Icons
+$(call inherit-product, vendor/ponces/config/icons.mk)
+
 # Packages
 $(call inherit-product, vendor/ponces/config/packages.mk)
 
