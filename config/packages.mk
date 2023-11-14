@@ -15,3 +15,7 @@ PRODUCT_PACKAGES += \
 # Trebuchet
 PRODUCT_PACKAGES += \
     TrebuchetQuickStep
+
+# Weather
+PRODUCT_PACKAGES += \
+    OmniJaws
