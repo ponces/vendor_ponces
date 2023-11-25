@@ -1,14 +1,25 @@
-# Fonts packages
-PRODUCT_PACKAGES += \
-    FontLatoOverlay \
-    FontRubikOverlay
+# Include {Arbutus,Arvo,Lato,Rubik} fonts
+$(call inherit-product-if-exists, external/google-fonts/arbutus-slab/fonts.mk)
+$(call inherit-product-if-exists, external/google-fonts/arvo/fonts.mk)
+$(call inherit-product-if-exists, external/google-fonts/lato/fonts.mk)
+$(call inherit-product-if-exists, external/google-fonts/rubik/fonts.mk)
 
-# Google Sans family
-PRODUCT_PACKAGES += \
-    GoogleSans-Italic.ttf \
-    GoogleSans-Regular.ttf \
-    GoogleSansClock-Regular.ttf \
-    GoogleSansFlex-Regular.ttf
+LOCAL_PATH := vendor/ponces/fonts
 
 PRODUCT_COPY_FILES += \
-    vendor/ponces/fonts/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
+    $(call find-copy-subdir-files,*,$(LOCAL_PATH)/ttf,$(TARGET_COPY_OUT_PRODUCT)/fonts)
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/fonts_customization.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/fonts_customization.xml
+
+# Fonts packages
+PRODUCT_PACKAGES += \
+    FontArbutusSourceOverlay \
+    FontArvoLatoOverlay \
+    FontHarmonySansOverlay \
+    FontInterOverlay \
+    FontLatoOverlay \
+    FontManropeOverlay \
+    FontOneplusSlateSourceOverlay \
+    FontOppoSansOverlay \
+    FontRubikRubikOverlay

@@ -13,7 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- When true enable gesture setting. -->
     <bool name="config_gesture_settings_enabled">true</bool>
 
@@ -31,7 +31,7 @@
 
     <!-- Action name for the wallpaper picker activity. -->
     <string name="config_wallpaper_picker_action" translatable="false">android.intent.action.MAIN</string>
-    
+
     <!-- Action name for the styles & wallpaper picker activity. -->
     <string name="config_styles_and_wallpaper_picker_action" translatable="false">android.intent.action.MAIN</string>
 

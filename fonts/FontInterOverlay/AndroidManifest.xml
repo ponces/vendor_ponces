@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.theme.overlay.font.inter.ponces">
+    <overlay
+        android:priority="600"
+        android:targetPackage="android"
+        android:category="android.theme.customization.font" />
+    <application android:label="@string/font_inter_overlay">
+        <meta-data
+            android:name="android.theme.customization.REQUIRED_SYSTEM_FONTS"
+            android:value="inter,inter-medium" />
+    </application>
+</manifest>

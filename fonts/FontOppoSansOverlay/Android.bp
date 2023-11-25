@@ -1,0 +1,6 @@
+runtime_resource_overlay {
+    name: "FontOppoSansOverlay",
+    theme: "FontOppoSans",
+    sdk_version: "current",
+    product_specific: true,
+}

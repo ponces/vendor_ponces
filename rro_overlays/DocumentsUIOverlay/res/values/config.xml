@@ -13,6 +13,6 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <string name="default_root_uri" translatable="false">content://com.android.externalstorage.documents/root/primary</string>
 </resources>

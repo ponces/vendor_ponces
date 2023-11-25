@@ -13,7 +13,9 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="config_lightFontFamily">google-sans</string>
+    <string name="config_regularFontFamily">google-sans</string>
     <string name="config_bodyFontFamily">google-sans-text</string>
     <string name="config_bodyFontFamilyMedium">google-sans-text-medium</string>
     <string name="config_clockFontFamily">google-sans-clock</string>

@@ -1,0 +1,6 @@
+runtime_resource_overlay {
+    name: "FontRubikRubikOverlay",
+    theme: "FontRubikRubik",
+    sdk_version: "current",
+    product_specific: true,
+}

@@ -13,7 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- List of packages whose icons are used to preview the icon shape for a theme. These are
         typically GMS apps so they should be available in GMS devices. -->
     <array name="icon_shape_preview_packages">

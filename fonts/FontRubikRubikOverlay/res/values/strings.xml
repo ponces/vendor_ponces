@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Headline / Body font Rubik overlay -->
+    <string name="font_rubik_rubik_overlay" translatable="false">Rubik / Rubik</string>
+</resources>

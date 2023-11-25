@@ -13,7 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- Display -->
     <bool name="def_one_handed_mode_enabled">true</bool>
     <bool name="def_screen_brightness_automatic_mode">true</bool>

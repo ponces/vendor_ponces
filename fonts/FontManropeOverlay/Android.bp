@@ -1,0 +1,6 @@
+runtime_resource_overlay {
+    name: "FontManropeOverlay",
+    theme: "FontManrope",
+    sdk_version: "current",
+    product_specific: true,
+}
