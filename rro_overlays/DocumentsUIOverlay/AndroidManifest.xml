@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.documentsui.overlay.ponces">
+    package="com.ponces.android.documentsui.overlay">
     <overlay
-        android:priority="0"
+        android:priority="1"
         android:targetPackage="com.android.documentsui"
         android:targetName="DocumentsUICustomization"
         android:isStatic="true"/>

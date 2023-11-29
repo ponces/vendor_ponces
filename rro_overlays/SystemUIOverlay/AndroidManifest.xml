@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.overlay.ponces">
-    <application android:label="AOSPConfigOverlay" android:hasCode="false"/>
+    package="com.ponces.android.systemui.overlay">
+    <application android:label="SystemUIOverlay" android:hasCode="false"/>
     <overlay
         android:priority="1"
-        android:targetPackage="android"
+        android:targetPackage="com.android.systemui"
         android:isStatic="true"/>
 </manifest>

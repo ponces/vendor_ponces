@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.theme.overlay.font.inter.ponces">
+    package="com.android.theme.font.inter">
     <overlay
         android:priority="600"
         android:targetPackage="android"

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.theme.overlay.font.manrope.ponces">
+    package="com.android.theme.font.manrope">
     <overlay
         android:priority="600"
         android:targetPackage="android"

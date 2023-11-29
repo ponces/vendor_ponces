@@ -1,9 +1,9 @@
 # RRO Overlays
 PRODUCT_PACKAGES += \
-    AOSPConfigOverlay \
-    AOSPFrameworksOverlay \
-    AOSPSystemUIOverlay \
+    ConfigOverlay \
     DocumentsUIOverlay \
+    FrameworksOverlay \
     Launcher3Overlay \
     SettingsProviderOverlay \
+    SystemUIOverlay \
     WifiOverlay

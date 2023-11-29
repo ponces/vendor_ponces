@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.wifi.resources.overlay.ponces"
+    package="com.ponces.android.wifi.resources.overlay"
     android:versionCode="1"
     android:versionName="1.0">
     <application android:hasCode="false"/>
     <overlay
-        android:priority="0"
+        android:priority="1"
         android:targetPackage="com.android.wifi.resources"
         android:targetName="WifiCustomization"
         android:isStatic="true"/>

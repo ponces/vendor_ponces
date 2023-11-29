@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.frameworks.overlay.ponces">
-    <application android:label="AOSPFrameworksOverlay" android:hasCode="false"/>
+    package="com.ponces.android.frameworks.overlay">
+    <application android:label="FrameworksOverlay" android:hasCode="false"/>
     <overlay
         android:priority="1"
         android:targetPackage="android"
