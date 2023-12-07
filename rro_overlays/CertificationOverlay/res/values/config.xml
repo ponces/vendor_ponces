@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="config_certifiedBuildProperties" translatable="false">
+        <item>MTKAC70DTI</item> <!-- Build.PRODUCT -->
+        <item>ac70dti</item> <!-- Build.DEVICE -->
+        <item>Archos</item> <!-- Build.MANUFACTURER -->
+        <item>archos</item> <!-- Build.BRAND -->
+        <item>Archos 70d Titanium</item> <!-- Build.MODEL -->
+        <item>archos/MTKAC70DTI/ac70dti:7.0/NRD90M/20170602.033254:user/release-keys</item> <!-- Build.FINGERPRINT -->
+        <item>2017-06-02</item> <!-- Build.SECURITY_PATCH -->
+        <item>24</item> <!-- Build.DEVICE_INITIAL_SDK_INT -->
+    </string-array>
+</resources>
