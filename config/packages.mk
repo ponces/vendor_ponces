@@ -8,10 +8,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     QuickAccessWallet
 
-# Camera
-PRODUCT_PACKAGES += \
-    Aperture
-
 # Trebuchet
 PRODUCT_PACKAGES += \
     TrebuchetQuickStep
