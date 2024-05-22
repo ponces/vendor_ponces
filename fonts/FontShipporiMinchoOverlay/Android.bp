@@ -1,0 +1,6 @@
+runtime_resource_overlay {
+    name: "FontShipporiMinchoOverlay",
+    theme: "FontShipporiMincho",
+    sdk_version: "current",
+    product_specific: true,
+}
