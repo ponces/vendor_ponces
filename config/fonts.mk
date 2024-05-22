@@ -22,4 +22,5 @@ PRODUCT_PACKAGES += \
     FontManropeOverlay \
     FontOneplusSlateSourceOverlay \
     FontOppoSansOverlay \
-    FontRubikRubikOverlay
+    FontRubikRubikOverlay \
+    FontShipporiMinchoOverlay 
