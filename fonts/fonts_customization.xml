@@ -473,4 +473,13 @@
     <font weight="900" style="italic">HarmonyOS-Sans-BlackItalic.ttf</font>
   </family>
   <alias name="harmonyos-sans-medium" to="harmonyos-sans" weight="500"/>
+
+  <family customizationType="new-named-family" name="shippori-mincho">
+    <font weight="400" style="normal">ShipporiMincho-Regular.ttf</font>
+    <font weight="500" style="normal">ShipporiMincho-Medium.ttf</font>
+    <font weight="600" style="normal">ShipporiMincho-SemiBold.ttf</font>
+    <font weight="700" style="normal">ShipporiMincho-Bold.ttf</font>
+    <font weight="800" style="normal">ShipporiMincho-ExtraBold.ttf</font>
+  </family>
+  <alias name="shippori-mincho-medium" to="shippori-mincho" weight="500"/>
 </fonts-modification>
