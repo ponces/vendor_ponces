@@ -1,9 +1,8 @@
 # RRO Overlays
 PRODUCT_PACKAGES += \
-    ConfigOverlay \
-    DocumentsUIOverlay \
-    FrameworksOverlay \
-    Launcher3Overlay \
-    SettingsProviderOverlay \
-    SystemUIOverlay \
-    WifiOverlay
+    GsiDocumentsUIOverlay \
+    GsiGsiFrameworksOverlay \
+    GsiLauncher3Overlay \
+    GsiSettingsProviderOverlay \
+    GsiSystemUIOverlay \
+    GsiWifiOverlay
