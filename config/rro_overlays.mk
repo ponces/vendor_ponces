@@ -1,7 +1,7 @@
 # RRO Overlays
 PRODUCT_PACKAGES += \
     GsiDocumentsUIOverlay \
-    GsiGsiFrameworksOverlay \
+    GsiFrameworksOverlay \
     GsiLauncher3Overlay \
     GsiSettingsProviderOverlay \
     GsiSystemUIOverlay \
