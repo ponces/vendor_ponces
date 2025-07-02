@@ -1,16 +1,13 @@
 # Required packages
 PRODUCT_PACKAGES += \
-    Stk \
+    Launcher3QuickStep \
     ThemePicker \
-    ThemesStub
+    ThemesStub \
+    Stk
 
 # SystemUI plugins
 PRODUCT_PACKAGES += \
     QuickAccessWallet
-
-# Trebuchet
-PRODUCT_PACKAGES += \
-    TrebuchetQuickStep
 
 # Weather
 PRODUCT_PACKAGES += \
